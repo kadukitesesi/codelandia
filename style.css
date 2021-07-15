@@ -54,13 +54,13 @@ header input{
 
 main{
     display:flex;
+    align-items:center:
 }
 
 article{
     max-width: 60%;
     max-height: 40vh;
     background-color:white;
-    margin-left: 18%;
     margin-top: 3em;
     box-shadow: 0.5px 0.5px 0.5px 0.5px  rgba(100, 98, 98, 0.712);
     border-radius: 4.5px;
@@ -115,7 +115,7 @@ main i{
             overflow-x: hidden;
         }
         article{
-            margin-left: 13%;
+            margin:0 auto;
             width: 90%;
         }
     }
@@ -128,9 +128,6 @@ main i{
         header,main{
             overflow-x: hidden;
         }
-        article{
-            margin-left: 15%;
-        }  
     }
 
     @media screen and (min-width:768px) and (max-width:1400px){
