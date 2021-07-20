@@ -8,7 +8,6 @@
 }
 
 main{
-    width: 100vw;
     background:#f3f5f7;
     display: flex;
     flex-direction: column;
@@ -23,7 +22,7 @@ header{
 
 nav{
     width:70%;
-    position:relative;
+    position:absolute;
     top: 2em;
     margin-left: 15%;
     display:flex;
@@ -100,21 +99,15 @@ main i{
 }
 
 
-    @media screen and (min-width:220px) and (max-width:360px){
+    @media screen and (max-width:760px){
         
         html{
             font-size:0.7rem;
         }
         
         article{
-            width: 90%;
+            width: 90vw;
         }
-    }
-
-    @media screen and (min-width:361px) and (max-width:760){
-        html{
-            font-size:0.7rem;
-        }       
     }
 
     @media screen and (min-width:768px) and (max-width:1400px){
